@@ -1,0 +1,32 @@
+*, body, html {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.container {
+  height: 100vh;
+  background-color: #AEAE92;
+}
+
+.tank {
+  width: 350px;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.fire {
+  width: 40px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 1;
+}
+
+.bullet {
+  width: 35px;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
